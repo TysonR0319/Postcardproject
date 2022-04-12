@@ -1,0 +1,65 @@
+/* Debuging and red border (when you inspect a website i think)
+* {
+	border: 1px dashed rgb(157, 211, 255);
+	min-height: 10px;
+}
+*/
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	width: 400px;
+	height: 50px;
+	display: flex;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0%;
+	font-family: "Lobster", cursive;
+	color: rgb(44, 118, 255);
+}
+.postcard-header img {
+	width: 40px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	padding-right: 20px;
+}
+.body-left img {
+	height: 200px;
+	width: 175px;
+}
+.body-left p {
+	margin-top: 0%;
+	font-family: "Lobster", cursive;
+	color: rgb(44, 118, 255);
+}
+.body-right {
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid rgb(44, 118, 255);
+	font-size: 14px;
+	font-family: "Lobster", cursive;
+}
+.button {
+	background-color: rgb(44, 118, 255);
+	padding: 10px 10px 10px 10px;
+	color: black;
+}
+.button:hover {
+	background-color: rgb(22, 54, 114);
+}
+
+https://github.com/TysonR0319/Postcardproject.git
+git branch -M main
